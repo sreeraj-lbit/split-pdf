@@ -3,6 +3,8 @@ Split an existing pdf document with a range of page numbers
 
 This class uses [FPDF](https://github.com/Setasign/FPDF) to process files.
 
+This class require [Ghostscript](https://www.ghostscript.com/Documentation.html) to be installed in order to convert documents with PDF version > 1.4 to FPDI compatible.
+
 
 # Usage
 ```php
