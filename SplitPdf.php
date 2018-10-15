@@ -5,9 +5,9 @@
  * This class let you import pages of existing PDF file and create a new pdf document.
  *
  */
+namespace sreeraj\SplitPdf;
 
-require_once('fpdf/fpdf.php');
-require_once('fpdi/autoload.php');
+require_once('vendor/autoload.php');
 
 use \setasign\Fpdi\Fpdi;
 
